@@ -231,7 +231,7 @@
 }
 
 // MOBILE
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .container {
     .navbar {
       width: 100%;
@@ -289,8 +289,10 @@
       flex-wrap: wrap;
 
       .left {
-        margin-left: 0;
-        padding: 20px;
+        // background-color: blue;
+        margin-left: 30px;
+        margin-bottom: 300px;
+        // padding: 20px;
         h1 {
           font-size: 35px;
         }
