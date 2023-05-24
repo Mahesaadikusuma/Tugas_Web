@@ -290,7 +290,7 @@
 
       .left {
         // background-color: blue;
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 300px;
         // padding: 20px;
         h1 {
@@ -326,7 +326,14 @@
 
       .right {
         .bg {
+          padding: 0;
           margin-top: -200px;
+          background-color: $primaryColor;
+
+          img {
+            width: 100%;
+            min-width: 200px;
+          }
         }
       }
     }
